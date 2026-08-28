@@ -61,31 +61,9 @@ df = load_data()
 # 제목
 # ============================================
 
-st.markdown(
-    """
-    <div style="text-align:center; padding-top:20px;">
+st.title("🌡️ 서울 기온 랭킹")
 
-        <div style="font-size:55px;">🌡️</div>
-
-        <h1 style="
-            font-size:36px;
-            margin-bottom:5px;
-        ">
-            서울 기온 랭킹
-        </h1>
-
-        <p style="
-            color:#777;
-            font-size:17px;
-            margin-top:0;
-        ">
-            선택한 기간은 역대 몇 번째로 더웠을까요?
-        </p>
-
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.write("선택한 기간은 역대 몇 번째로 더웠을까요?")
 
 st.write("")
 
